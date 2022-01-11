@@ -6,7 +6,7 @@
 
 
 body {
-    background-color: #242333;
+    background-color: darkorange;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -45,7 +45,7 @@ body {
 }
 
 .seat.selected {
-    background-color: #6feaf6;
+    background-color: yellowgreen
 
 }
 
@@ -90,10 +90,42 @@ body {
     align-items: center;
     justify-content: center;
     margin : 0 10px;
-    
+
+}
+
+.showcase li small{
+    margin-left: 2px;
 }
 
 .row {
     display:flex;
+}
+
+
+.container {
+    perspective: 1000px;
+    margin-bottom: 30px;
+
+}
+
+
+.screen{
+    background-color: #fff;
+    height: 70px;
+    width: 100%;
+    margin : 15px 0;
+    transform: rotateX(-45deg);
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+
+}
+
+
+p.text{
+    margin: 25px;
+}
+
+
+p.text span{
+    color: black;
 }
 
